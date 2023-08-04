@@ -5,9 +5,9 @@ import os
 from typing import Dict, Iterator, List, Optional, Text, Tuple, Union
 
 from absl import logging
-from dmvr import builders
-from dmvr import modalities
-from dmvr import video_dataset
+from DMVR.dmvr import builders
+from DMVR.dmvr import modalities
+from DMVR.dmvr import video_dataset
 from flax import jax_utils
 import jax
 import jax.numpy as jnp

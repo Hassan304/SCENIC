@@ -3,9 +3,9 @@
 import functools
 from typing import Any, Mapping, Optional, Union
 
-from dmvr import builders
-from dmvr import processors
-from dmvr import tokenizers
+from DMVR.dmvr import builders
+from DMVR.dmvr import processors
+from DMVR.dmvr import tokenizers
 import gin
 from t5.data.preprocessors import DenoiseInputsFn
 from t5.data.preprocessors import DenoiseNoiseMaskFn

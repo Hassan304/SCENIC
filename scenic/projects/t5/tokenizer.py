@@ -25,7 +25,7 @@ SP_MODEL_PATH = 'gs://t5-data/vocabs/cc_all.32000.100extra/sentencepiece.model'
 # pylint: enable=line-too-long
 
 
-class SentencePieceTokenizer(tokenizers.SentencePieceTokenizer):
+class SentencePieceTokenizer(DMVR.dmvr.tokenizers.SentencePieceTokenizer):
   """Wrapper around `SentencePieceTokenizer` to keep backwards compatibility.
 
   The current DMVR SentencePiece tokenizer always sets `prepend_bos` when

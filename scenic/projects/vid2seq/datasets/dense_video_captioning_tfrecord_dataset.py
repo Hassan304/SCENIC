@@ -4,7 +4,7 @@ import functools
 from typing import Dict, Iterator, List, Optional, Text, Tuple, Union
 
 from absl import logging
-from dmvr import tokenizers
+from DMVR.dmvr import tokenizers
 from flax import jax_utils
 import jax
 import jax.numpy as jnp

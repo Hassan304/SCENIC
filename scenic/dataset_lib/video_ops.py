@@ -28,8 +28,8 @@ from typing import Optional
 
 
 from absl import logging
-from dmvr import builders
-from dmvr import processors as dmvr_processors
+from DMVR.dmvr import builders
+from DMVR.dmvr import processors as dmvr_processors
 import simclr.tf2.data_util as simclr_data
 import tensorflow as tf
 from official.vision.image_classification import augment

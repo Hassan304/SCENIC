@@ -16,7 +16,7 @@ from collections.abc import Sequence
 from typing import Optional
 from typing import Union
 
-import tokenizers
+import DMVR.dmvr.tokenizers
 import tensorflow as tf
 import tensorflow_text
 
